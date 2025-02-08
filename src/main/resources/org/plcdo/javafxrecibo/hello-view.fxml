@@ -17,15 +17,21 @@
          <Font size="22.0" />
       </font>
    </Label>
-   <TextField fx:id="quantityField" alignment="CENTER" prefHeight="25.0" prefWidth="210.0" />
+   <TextField fx:id="quantityField" alignment="CENTER" prefHeight="25.0" prefWidth="210.0" style="-fx-border-color: blue;" />
    <Label text="Quantidade">
       <font>
          <Font size="22.0" />
       </font>
    </Label>
-   <TextField fx:id="barcodeDataField" alignment="CENTER" />
-    <Button onAction="#onSaveButtonClick" text="Imprimir!" />
- <Button onAction="#cleanInputs" mnemonicParsing="false" text="Limpar!" />
+   <TextField fx:id="barcodeDataField" alignment="CENTER" style="-fx-border-color: blue;" />
+    <Button onAction="#onSaveButtonClick" prefHeight="22.0" prefWidth="109.0" style="-fx-background-color: green;" text="Imprimir!" textAlignment="CENTER" textFill="#fcfafa">
+      <font>
+         <Font size="16.0" />
+      </font></Button>
+ <Button mnemonicParsing="false" onAction="#cleanInputs" style="-fx-background-color: red;" text="Limpar!" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font></Button>
 
     <Label fx:id="quantityLabel" />
    <Label alignment="BASELINE_LEFT" cacheShape="false" text="pLcdo" />
