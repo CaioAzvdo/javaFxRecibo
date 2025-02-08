@@ -130,6 +130,11 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
+<!--                            <archive>-->
+<!--                                <manifest>-->
+<!--                                    <mainClass>org.plcdo.javafxrecibo/org.plcdo.javafxrecibo.HelloApplication</mainClass>-->
+<!--                                </manifest>-->
+<!--                            </archive>-->
                             <mainClass>org.plcdo.javafxrecibo/org.plcdo.javafxrecibo.HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
