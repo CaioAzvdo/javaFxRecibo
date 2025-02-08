@@ -17,13 +17,13 @@
          <Font size="22.0" />
       </font>
    </Label>
-   <TextField fx:id="quantityField" alignment="CENTER" prefHeight="25.0" prefWidth="210.0" style="-fx-border-color: blue;" />
+   <TextField fx:id="barcodeDataField" alignment="CENTER" prefHeight="25.0" prefWidth="210.0" style="-fx-border-color: blue;" />
    <Label text="Quantidade">
       <font>
          <Font size="22.0" />
       </font>
    </Label>
-   <TextField fx:id="barcodeDataField" alignment="CENTER" style="-fx-border-color: blue;" />
+   <TextField fx:id="quantityField" alignment="CENTER" style="-fx-border-color: blue;" />
     <Button onAction="#onSaveButtonClick" prefHeight="22.0" prefWidth="109.0" style="-fx-background-color: green;" text="Imprimir!" textAlignment="CENTER" textFill="#fcfafa">
       <font>
          <Font size="16.0" />
