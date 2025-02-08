@@ -15,7 +15,7 @@ public class ImprimirRecibo {
             String quantityDisplay = "Qtd: " + quantity + " unidades";
 //            String barcodeData = "252";
             String barcodeDataDisplay = quantity+"*" + barcodeData;
-            String barcodeDataString = quantityDisplay + " " + barcodeDataDisplay;
+            String barcodeDataString = quantityDisplay + " - " + barcodeDataDisplay;
 
             // Gerar imagem
             BufferedImage labelImage2 = createImage.createLabelImage(productName, quantityDisplay, barcodeDataDisplay, barcodeDataString);

@@ -31,7 +31,7 @@ public class CreateImage {
         // Desenhar quantidade
         font = font.deriveFont(60f);
         g.setFont(font);
-        drawCenteredString(g, quantity, WIDTH/2, 350);
+//        drawCenteredString(g, quantity, WIDTH/2, 350);
 
         // Gerar código de barras
         BufferedImage barcode = generateBarcode(barcodeData, WIDTH - 400, 300);

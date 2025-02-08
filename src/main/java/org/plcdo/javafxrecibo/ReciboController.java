@@ -28,7 +28,12 @@ public class ReciboController {
         System.out.println("Quantity: " + quantity);
         System.out.println("Barcode Data: " + barcodeData);
         imprimirRecibo.printRecibo(quantity, barcodeData);
-        quantityLabel.setText(quantityField.getText() + " " + barcodeDataField.getText());
+//        quantityLabel.setText(quantityField.getText() + " " + barcodeDataField.getText());
+    }
+    @FXML
+    protected void cleanInputs() {
+        quantityField.clear();
+        barcodeDataField.clear();
     }
 //    @FXML
 //    protected void onHelloButtonClick() {
