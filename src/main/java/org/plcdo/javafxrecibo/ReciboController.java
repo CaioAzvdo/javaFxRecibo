@@ -6,7 +6,7 @@ import javafx.scene.control.TextField;
 import org.plcdo.javafxrecibo.services.ImprimirRecibo;
 
 public class ReciboController {
-    public String productName = "Pão Careca";
+    public String productName = "Mercado Massape - Volte Sempre!";
     public String quantity = "";
     public String quantityDisplay = "Qtd: " + quantity + " unidades";
     public String barcodeData = "";

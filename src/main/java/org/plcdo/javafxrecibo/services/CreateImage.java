@@ -21,7 +21,7 @@ public class CreateImage {
         g.setColor(Color.BLACK);
 
         // Configurações de fonte
-        Font font = new Font("Arial", Font.BOLD, 84);
+        Font font = new Font("Arial", Font.BOLD, 160);
         g.setFont(font);
 
         // Desenhar nome do produto
@@ -29,12 +29,12 @@ public class CreateImage {
         drawCenteredString(g, barcodeDataString, WIDTH/2, 450);
 
         // Desenhar quantidade
-        font = font.deriveFont(60f);
+        font = font.deriveFont(120f);
         g.setFont(font);
 //        drawCenteredString(g, quantity, WIDTH/2, 350);
 
         // Gerar código de barras
-        BufferedImage barcode = generateBarcode(barcodeData, WIDTH - 400, 300);
+        BufferedImage barcode = generateBarcode(barcodeData, WIDTH - 400, 600);
         g.drawImage(barcode, 200, 500, null);
 
         g.dispose();
